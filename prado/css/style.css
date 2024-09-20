@@ -930,8 +930,8 @@ header{
   .sidebar {
     position: fixed;
     top: 0;
-    left: -300px; /* Inicialmente fora da tela à esquerda */
-    width: 300px; /* Aumenta a largura da sidebar */
+    left: -400px; /* Inicialmente fora da tela à esquerda */
+    width: 400px; /* Aumenta a largura da sidebar */
     height: 100%;
     background-color: #333;
     padding-top: 60px;

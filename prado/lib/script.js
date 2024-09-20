@@ -23,4 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
 
 
-alert('Seja bem-vindo ao site da empresa!');
+  const floatingBtn = document.querySelector('.floating-btn');
+  const sidebar = document.querySelector('.sidebar-bar');
+  
+  floatingBtn.addEventListener('click', function() {
+    sidebar.classList.toggle('active');
+  });
