@@ -4,13 +4,10 @@
           <img class="info2__img" src="./pictures/img2.png" alt="" />
         </div>
         <div class="info2--flex1">
-          <div class="section__up-text">Conceito base</div>
-          <div class="section__title">Jogo de coleta NFT e autobatalha</div>
+          <div class="section__up-text">Mecânica inovadora</div>
+          <div class="section__title">Colete NFTs raros e batalhe por recompensas</div>
           <div class="section__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-            repudiandae! Nam pariatur fugit at iure tempora commodi dolor
-            praesentium explicabo sequi enim laudantium odio ducimus aut
-            veritatis aperiam, cum tenetur.
+            Neste universo dinâmico, cada jogador tem a oportunidade de colecionar NFTs exclusivos e utilizá-los em batalhas estratégicas. Com um sistema de combate automatizado, a vitória depende de sua coleção e das decisões que tomar ao longo do jogo, proporcionando uma experiência rica e imersiva.
           </div>
           <button class="hero__btn">Descubra</button>
         </div>
@@ -21,13 +18,10 @@
           <?php include("../prado/includes/carrosel.php") ?>
         </div>
         <div class="info2--flex1">
-          <div class="section__up-text">Conceito base</div>
-          <div class="section__title">Jogo de coleta NFT e autobatalha</div>
+          <div class="section__up-text">Explore o ecossistema</div>
+          <div class="section__title">Personalize sua jornada no universo NFT</div>
           <div class="section__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-            repudiandae! Nam pariatur fugit at iure tempora commodi dolor
-            praesentium explicabo sequi enim laudantium odio ducimus aut
-            veritatis aperiam, cum tenetur.
+            Com uma vasta gama de coleções e opções de personalização, você pode criar uma jornada única e evoluir seus personagens e itens ao longo do tempo. As possibilidades são infinitas, desde melhorias em suas habilidades até a aquisição de NFTs raros que podem mudar o rumo das batalhas.
           </div>
           <button class="info2__btn">
             Saiba mais

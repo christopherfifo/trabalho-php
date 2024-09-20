@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./javascript/script.js" defer></script>
-    <title>nft-2</title>
+    <title>nft-dados</title>
   </head>
   <body>
     <div class="bg">

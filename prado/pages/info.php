@@ -27,10 +27,7 @@
           <div class="section__up-text">Conceito base</div>
           <div class="section__title">Jogo de coleta NFT e autobatalha</div>
           <div class="section__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-            repudiandae! Nam pariatur fugit at iure tempora commodi dolor
-            praesentium explicabo sequi enim laudantium odio ducimus aut
-            veritatis aperiam, cum tenetur.
+            Os NFTs estão transformando a forma como os jogadores interagem com itens digitais. Nesse jogo inovador, cada personagem e item colecionável é um NFT único, oferecendo propriedade real e valor no mercado. Desafie outros jogadores em batalhas automáticas enquanto expande sua coleção com ativos raros e valiosos.
           </div>
           <button class="section__btn">Descubra</button>
         </div>

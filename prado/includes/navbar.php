@@ -3,10 +3,10 @@
 
         <nav class="header__nav">
           <ul class="nav__ul">
-            <li class="nav__li"><a class="nav__a" href="#">NFT</a></li>
-            <li class="nav__li"><a class="nav__a" href="#">Sobre nós</a></li>
-            <li class="nav__li"><a class="nav__a" href="#">Nosso time</a></li>
-            <li class="nav__li"><a class="nav__a" href="#">Contato</a></li>
+            <li class="nav__li"><a class="nav__a" href="http://localhost/trabalho-php/prado">NFT</a></li>
+            <li class="nav__li"><a class="nav__a" href="http://localhost/trabalho-php/prado/pagina.php">Sobre nós</a></li>
+            <li class="nav__li"><a class="nav__a" href="#dados">Dados</a></li>
+            <li class="nav__li"><a class="nav__a" href="#end">Contato</a></li>
           </ul>
         </nav>
         <button class="header__icon-btn">
