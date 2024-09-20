@@ -90,3 +90,11 @@ $(function () {
     options: areaChartOptions
   });
 });
+
+
+const floatingBtn = document.getElementById('floatingBtn');
+const sidebar = document.getElementById('sidebar');
+
+floatingBtn.addEventListener('click', function() {
+  sidebar.classList.toggle('active');
+});

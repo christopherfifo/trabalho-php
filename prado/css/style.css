@@ -903,3 +903,79 @@ header{
 .tabela-a{
     background-color: #110922;
 }
+
+
+/* Estilos para o botão flutuante */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #4bb6b7;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Para deixar o botão circular */
+    padding: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1001; /* Certifica-se que está acima de outros elementos */
+    display: block;
+  }
+  
+  /* Sidebar oculta até ser chamada */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Inicialmente fora da tela à esquerda */
+    width: 300px; /* Aumenta a largura da sidebar */
+    height: 100%;
+    background-color: #333;
+    padding-top: 60px;
+    transition: 0.3s;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+  }
+  
+  /* Links da sidebar */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Espaçamento uniforme entre os itens */
+    height: 50%; /* Controla o espaçamento para centralizar melhor */
+  }
+  
+  .sidebar ul li {
+    text-align: center;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #4bb6b7;
+  }
+  
+  /* Ativar sidebar */
+  .sidebar.active {
+    left: 0; /* Traz a sidebar para dentro da tela */
+  }
+  
+  /* Esconder o botão e a sidebar em telas pequenas */
+  @media (max-width: 768px) {
+    .floating-btn, .sidebar {
+      display: none;
+    }
+  }
+  

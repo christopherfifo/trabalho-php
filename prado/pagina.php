@@ -24,13 +24,14 @@
 
 
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="./javascript/script.js" defer></script>
+    <script src="./lib/script.js" defer></script>
     <title>nft-dados</title>
   </head>
   <body>
     <div class="bg">
 
       <?php include("../prado/includes/navbar.php")?>
+      <?php include("../prado/includes/sidebar.php")?>
 
       <?php include("../prado/pages/hero.php")?>
     </div>
